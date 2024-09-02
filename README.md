@@ -22,6 +22,7 @@ Para instalar la aplicación en Windows, sigue estos pasos:
    cd flask-subarray-finder
    
 2. **Instala Flask**: Asegúrate de tener Python instalado en tu sistema. Luego, instala Flask utilizando pip:
+   ```bash
    pip install flask
    
 ## **Uso**
