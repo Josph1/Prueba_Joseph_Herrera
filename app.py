@@ -9,7 +9,7 @@ def encontrar_subarreglo():
     arreglo_inicial = datos.get('array')
     numero_objetivo = datos.get('target')
 
-    if not arreglo_inicial:  # Check for empty array
+    if not arreglo_inicial:  
         return jsonify({"subarray": [], "message": "No hay subarreglo en un array vacío"})
 
     arreglo_out = encontrar_el_subarreglo(arreglo_inicial, numero_objetivo)
