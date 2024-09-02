@@ -12,7 +12,7 @@ def encontrar_el_subarreglo(arreglo_inicial, numero_objetivo):
                 arreglo_maximo = arreglo_inicial[i:j+1]
 
     if max_tamaño == 0:
-        return None  # No subarray found with the target sum
+        return None  
     return arreglo_maximo
 
         
