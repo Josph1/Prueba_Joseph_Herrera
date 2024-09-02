@@ -28,15 +28,25 @@ Para instalar la aplicación en Windows, sigue estos pasos:
 ## **Uso**
 Para ejecutar la aplicación Flask en Windows, sigue estos pasos:
 
-1. **Ejecuta la aplicación**: Abre una terminal en la carpeta del proyecto y ejecuta el siguiente comando:
+1. **Ejecuta main.py:** Abre una terminal en la carpeta del proyecto y ejecuta el siguiente comando:
+   ```bash
+   python main.py
+
+   Esto ejecutará el script main.py, que contiene la lógica para encontrar el subarreglo 
+   con la suma igual al número objetivo.
+   
+2. **Ejecuta app.py:**
+
+   Luego, en la misma terminal o en una nueva, ejecuta el siguiente comando:
+   
    ```bash
    python app.py
+   Este comando iniciará la aplicación Flask, que por defecto se ejecutará en 
+   http://localhost:5000.
+3. **Probar el endpoint:**
 
-   Por defecto, la aplicación se ejecutará en http://localhost:5000.
-
-2. **Probar el endpoint:**
-
-   Puedes probar el endpoint /subarreglo utilizando curl o cualquier cliente HTTP (como Postman). Aquí hay un ejemplo usando curl en la línea de comandos de Windows
+   Puedes probar el endpoint /subarreglo utilizando curl o cualquier cliente HTTP (como 
+   Postman). Aquí hay un ejemplo usando curl en la línea de comandos de Windows:
    
    ```bash
    curl -X POST -H "Content-Type: application/json" -d "{\"array\": [1, -2, 1, 1, -1, 2, 4], \"target\": 0}" http://localhost:5000/subarreglo
