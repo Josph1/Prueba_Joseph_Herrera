@@ -1,6 +1,6 @@
 # Buscador de Subarreglos con Flask
 
-Este repositorio contiene una aplicación Flask que encuentra un subarreglo dentro de un arreglo dado cuya suma es igual a un número objetivo especificado.
+Este repositorio contiene una aplicación Flask que tiene como objetivo encontrar un subarreglo dentro de un arreglo dado, cuya suma sea igual a un valor objetivo específico.
 
 ## Tabla de Contenidos
 
@@ -10,7 +10,7 @@ Este repositorio contiene una aplicación Flask que encuentra un subarreglo dent
 
 ## Descripción
 
-Esta aplicación utiliza Flask para proporcionar una API REST que permite encontrar subarreglos en un arreglo de números que sumen a un objetivo específico.
+Esta aplicación utiliza Flask para proporcionar una API REST que permite encontrar subarreglos dentro de un arreglo de números cuya suma coincida con un valor objetivo dado.
 
 ## Instalación
 
@@ -33,7 +33,7 @@ Para ejecutar la aplicación Flask en Windows, sigue estos pasos:
    python main.py
 
    Esto ejecutará el script main.py, que contiene la lógica para encontrar el subarreglo 
-   con la suma igual al número objetivo.
+   cuya suma sea igual al número objetivo.
    
 2. **Ejecuta app.py:**
 
@@ -42,7 +42,7 @@ Para ejecutar la aplicación Flask en Windows, sigue estos pasos:
    ```bash
    python app.py
    
-   Este comando iniciará la aplicación Flask, que por defecto se ejecutará en 
+   Este comando iniciará la aplicación Flask, que por defecto sera ejecutada en 
    http://localhost:5000.
 3. **Probar el endpoint:**
 
@@ -59,4 +59,3 @@ Para la entrada {"array": [1, -2, 1, 1, -1, 2, 4], "target": 0}, la salida esper
    {
        "subarray": [1, -2, 1, 1, -1]
    }
-
