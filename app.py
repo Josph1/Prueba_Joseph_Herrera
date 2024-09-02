@@ -7,10 +7,14 @@ app = Flask(__name__)
 
 def encontrar_subarreglo():
   datos = request.get_json()
-  arreglo = data.get('array')
+  arreglo_inicial = data.get('array')
   numero_objetivo = datos.get('target')
+  arreglo_out = encontar_el_subarreglo(arreglo, numero_objetivo)
+  return jsonify("subarray": arreglo_out)
 
-subarreglo = encontrar
+if __name__ == '__main__':
+  app.run(debug=True)
+
 
 
 
