@@ -29,15 +29,15 @@ Para ejecutar la aplicación Flask en Windows, sigue estos pasos:
 
 1. **Ejecuta la aplicación**: Abre una terminal en la carpeta del proyecto y ejecuta el siguiente comando:
 
-python app.py
+   python app.py
 
-Por defecto, la aplicación se ejecutará en http://localhost:5000.
+   Por defecto, la aplicación se ejecutará en http://localhost:5000.
 
 2. **Probar el endpoint:**
 
-Puedes probar el endpoint /subarreglo utilizando curl o cualquier cliente HTTP (como Postman). Aquí hay un ejemplo usando curl en la línea de comandos de Windows
+   Puedes probar el endpoint /subarreglo utilizando curl o cualquier cliente HTTP (como Postman). Aquí hay un ejemplo usando curl en la línea de comandos de Windows
 
-curl -X POST -H "Content-Type: application/json" -d "{\"array\": [1, -2, 1, 1, -1, 2, 4], \"target\": 0}" http://localhost:5000/subarreglo
+   curl -X POST -H "Content-Type: application/json" -d "{\"array\": [1, -2, 1, 1, -1, 2, 4], \"target\": 0}" http://localhost:5000/subarreglo
 
 3. **Salida Esperada**
 Para la entrada {"array": [1, -2, 1, 1, -1, 2, 4], "target": 0}, la salida esperada será:
