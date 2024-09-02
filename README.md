@@ -43,8 +43,8 @@ Para ejecutar la aplicación Flask en Windows, sigue estos pasos:
 4. **Salida Esperada**
 Para la entrada {"array": [1, -2, 1, 1, -1, 2, 4], "target": 0}, la salida esperada será:
 
-```bash
-{
-    "subarray": [1, -2, 1, 1, -1]
-}
+   ```bash
+   {
+       "subarray": [1, -2, 1, 1, -1]
+   }
 
