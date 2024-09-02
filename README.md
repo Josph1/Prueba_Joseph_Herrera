@@ -41,6 +41,7 @@ curl -X POST -H "Content-Type: application/json" -d "{\"array\": [1, -2, 1, 1, -
 
 3. **Salida Esperada**
 Para la entrada {"array": [1, -2, 1, 1, -1, 2, 4], "target": 0}, la salida esperada será:
+
 {
     "subarray": [1, -2, 1, 1, -1]
 }
