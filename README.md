@@ -41,6 +41,7 @@ Para ejecutar la aplicación Flask en Windows, sigue estos pasos:
    
    ```bash
    python app.py
+   
    Este comando iniciará la aplicación Flask, que por defecto se ejecutará en 
    http://localhost:5000.
 3. **Probar el endpoint:**
