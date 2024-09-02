@@ -24,7 +24,7 @@ Para instalar la aplicación en Windows, sigue estos pasos:
 2. **Instala Flask**: Asegúrate de tener Python instalado en tu sistema. Luego, instala Flask utilizando pip:
    pip install flask
    
-**Uso**
+## **Uso**
 Para ejecutar la aplicación Flask en Windows, sigue estos pasos:
 
 1. **Ejecuta la aplicación**: Abre una terminal en la carpeta del proyecto y ejecuta el siguiente comando:
